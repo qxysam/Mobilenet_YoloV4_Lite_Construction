@@ -215,6 +215,7 @@ class YOLO(object):
             label_size = draw.textsize(label, font)
             label = label.encode('utf-8')
             print(label, top, left, bottom, right)
+            # 获取label，用作安全施工检查-----------------------------------------------------------------#
             
             if top - label_size[1] >= 0:
                 text_origin = np.array([left, top - label_size[1]])
