@@ -1,4 +1,4 @@
-## YOLOV4：You Only Look Once目标检测模型-修改mobilenet系列主干网络及ghostnet网络-在pytorch当中的实现
+## YOLOV4：目标检测模型-修改mobilenet系列主干网络及ghostnet网络-pytorch实现
 ## 实际项目中，采用labelme，labelimg作为数据标注工具,VOC目录采用实际类别，标注图片和标签文件进行训练
 
 **加入letterbox_image的选项，关闭letterbox_image后网络的map一般可以得到提升。
