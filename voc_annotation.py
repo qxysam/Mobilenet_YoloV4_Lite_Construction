@@ -12,8 +12,7 @@ sets=[('2007', 'train'), ('2007', 'val'), ('2007', 'test')]
 #   num_classes已经关联起来了，不需要单独修改和设置
 #-----------------------------------------------------#
 classes = ["aeroplane", "bicycle", "bird", "boat", "bottle", "bus", "car", "cat", "chair", "cow", "diningtable", "dog", "horse", "motorbike", "person", "pottedplant", "sheep", "sofa", "train", "tvmonitor"]
-# our_classes：：classes = ["personNoworker","worker","bird","animal","boat", "bus", "car", "crane","shovel","hydraulic","cement", "piledriver","safetyhat","roadroller","brick","waterpipe","construction","construction"]
-
+# our_classes：：classes = ["person","bird","animal","boat", "bus", "car",'truck', "crane", "shovel","hydraulic","cement", "hat", "roadroller", "waterpipe", "construction", "construction"]
 
 def convert_annotation(year, image_id, list_file):
     in_file = open('VOCdevkit/VOC%s/Annotations/%s.xml'%(year, image_id), encoding='utf-8')
