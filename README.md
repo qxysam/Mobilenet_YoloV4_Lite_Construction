@@ -93,3 +93,5 @@ get_map文件克隆自https://github.com/Cartucho/mAP
 https://github.com/qqwweee/keras-yolo3/  
 https://github.com/Cartucho/mAP  
 https://github.com/Ma-Dan/keras-yolo4
+![image](https://github.com/qxysam/Mobilenet_YoloV4_Lite_Construction/blob/main/safetyhat.jpg)
+
