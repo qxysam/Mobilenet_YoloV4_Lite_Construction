@@ -88,7 +88,6 @@ dog
 8. 更新了get_gt_txt.py、get_dr_txt.py和get_map.py文件。  
 get_map文件克隆自https://github.com/Cartucho/mAP  
 
-![image](https://github.com/qxysam/Mobilenet_YoloV4_Lite_Construction/blob/main/pers_hat.jpeg)
 
 ## Reference
 https://github.com/qqwweee/keras-yolo3/  
